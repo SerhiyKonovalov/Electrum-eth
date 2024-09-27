@@ -71,7 +71,7 @@ h6 {
   font-size: inherit
 }
 body {
-  background: #c6c5d4
+  background: #d8d7df
 }
 .lock body {
   overflow: hidden;
@@ -230,7 +230,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 5.1875rem;
-  color: #c6c5d4;
+  color: #d8d7df;
   font-weight: 500
 }
 .menu__list {
@@ -440,7 +440,7 @@ body {
   display: grid;
   justify-items: center;
   padding-block: 3.75rem;
-  background: #454a74
+  background: #161d30
 }
 .advantages__block-header {
   display: flex;
@@ -464,7 +464,7 @@ body {
 }
 .advantages__text {
   line-height: 1.55;
-  color: #c6c5d4
+  color: #d8d7df
 }
 .advantages__items {
   display: grid;
@@ -490,7 +490,7 @@ body {
   margin-bottom: .75rem
 }
 .item-advantages__text {
-  color: #c6c5d4;
+  color: #d8d7df;
   line-height: 1.5
 }
 .how {
