@@ -118,14 +118,14 @@ body {
   font-weight: 600;
   line-height: 1.55;
   color: #fff;
-  background: #8891b0;
-  border: .125rem solid #8891b0;
+  background: #8b98c5;
+  border: .125rem solid #8b98c5;
   border-radius: .4375rem;
   transition: all .4s
 }
 .button:hover {
   background: rgba(0,0,0,0);
-  color: #8891b0
+  color: #8b98c5
 }
 .button--fw {
   width: 100%
@@ -239,7 +239,7 @@ body {
   gap: .625rem
 }
 .menu__link {
-  background-color: #8891b0;
+  background-color: #8b98c5;
   border-radius: .4375rem;
   padding: .4375rem .9375rem;
   font-size: 1.125rem;
