@@ -118,14 +118,14 @@ body {
   font-weight: 600;
   line-height: 1.55;
   color: #fff;
-  background: #454a74;
-  border: .125rem solid #454a74;
+  background: #8891b0;
+  border: .125rem solid #8891b0;
   border-radius: .4375rem;
   transition: all .4s
 }
 .button:hover {
   background: rgba(0,0,0,0);
-  color: #454a74
+  color: #8891b0
 }
 .button--fw {
   width: 100%
@@ -177,7 +177,7 @@ body {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.3;
-  color: #161d30;
+  color: #454a74;
   margin-bottom: 1.25rem
 }
 .title img {
@@ -239,7 +239,7 @@ body {
   gap: .625rem
 }
 .menu__link {
-  background-color: #454a74;
+  background-color: #8891b0;
   border-radius: .4375rem;
   padding: .4375rem .9375rem;
   font-size: 1.125rem;
@@ -248,10 +248,10 @@ body {
   transition: all .2s
 }
 .menu__link:hover {
-  background-color: #716b94
+  background-color: #67608d
 }
 .menu__link.active {
-  background-color: #c6c5d4;
+  background-color: #fff;
   color: #161d30
 }
 .footer {
@@ -311,7 +311,7 @@ body {
   height: .1875rem;
   bottom: -.3125rem;
   left: 0;
-  background: #161d30;
+  background: #454a74;
   transition: all .4s
 }
 .about-home__title a:hover::after {
