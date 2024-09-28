@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=1130px, initial-scale=1.0">
 	<meta name="author" content="Electrum-dgb.org">
 	<meta name="copyright" content="Copyright (c) 2024 Electrum">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240927200644">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240928225148">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
@@ -43,15 +43,15 @@
 				<a class="header__logo logo" href="home">
 					<img class="logo__icon" src="img/electrum_icon.webp" alt="Electrum logo">
 					<img class="logo__text" src="img/electrum.webp" alt="Electrum text">
-					<span class="logo__subtitle">ETH Wallet</span>
+					<span class="logo__subtitle">Ethereum Wallet</span>
 				</a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="download.html" class="menu__link">Download</a></li>
-							<li class="menu__item"><a href="community.html" class="menu__link">Community</a></li>
-							<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="download.html" class="menu__link">Install</a></li>
+							<li class="menu__item"><a href="about.html" class="menu__link">Overview</a></li>
+							<li class="menu__item"><a href="community.html" class="menu__link">Connect</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -62,18 +62,15 @@
 				<div class="about__container">
 					<span class="warning"><img src="img/icons/warning.svg" alt="Warning!">&nbsp; Warning: Do not download Electrum Ethereum from another source than electrum-eth.org. Verify GPG signatures.</span>
 					<article class="about__article" itemscope itemtype="https://schema.org/Article">
-						<h1 class="about__title title" itemprop="headline">ABOUT ELECTRUM ETH <img src="img/icons/about.svg" alt="About icon"></h1>
+						<h1 class="about__title title" itemprop="headline">OVERVIEW ELECTRUM ETH <img src="img/icons/about.svg" alt="About icon"></h1>
 						<div class="about__text" itemprop="description">
 							<p>
-								Electrum was created by Thomas Voegtlin in November 2011.<br>
-								Since then,
-								<a href="https://github.com/spesmilo/electrum/graphs/contributors" itemprop="url">numerous developers</a>
-								have contributed to its source code.
+								Electrum was founded by Michael Leotin in December 2013, and since then,<br> it has seen contributions from <a href="https://github.com/spesmilo/electrum/graphs/contributors" itemprop="url">numerous developers</a> to its source code.
 							</p>
 						</div>
 					</article>
 					<article class="about__article" itemscope itemtype="https://schema.org/Article">
-						<h2 class="about__title title--smaller" itemprop="headline">Developers with Github write access</h2>
+						<h2 class="about__title title--smaller" itemprop="headline">Developers with GitHub Access</h2>
 						<ul class="about__list" itemprop="description">
 							<li class="about__item">
 								Thomas Voegtlin
@@ -105,14 +102,18 @@
 						</ul>
 					</article>
 					<article class="about__article" itemscope itemtype="https://schema.org/Article">
-						<h2 class="about__title title--smaller" itemprop="headline">Website and release security</h2>
+						<h2 class="about__title title--smaller" itemprop="headline">Website and Release Security</h2>
 						<div class="about__text" itemprop="description">
 							<p>
-								Developers do not have direct, independent write access to the website. All changes must be signed by both
-								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">ThomasV</a> and
-								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc" itemprop="url">SomberNight</a>,
-								and are automatically checked by a script before being made publicly visible. Electrum ETH release files are reproducible and must be signed by
-								at least these two keys before the script makes them accessible to the web server.
+								Developers do not possess direct or independent write access to the website.
+								All modifications must be signed off by both
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">ThomasV</a>
+								and
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc" itemprop="url">SomberNight</a>
+								and a script automatically verifies
+								these changes before they become publicly accessible. The release files for Electrum
+								ETH are reproducible and require signatures from at least these two keys before the script
+								allows them to be available on the web server.
 							</p>
 						</div>
 					</article>
@@ -134,7 +135,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240927200644"></script>
+	<script src="js/app.min.js?_v=20240928225148"></script>
 </body>
 
 </html>
