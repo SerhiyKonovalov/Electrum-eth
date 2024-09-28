@@ -494,12 +494,13 @@ body {
   line-height: 1.5
 }
 .how {
+  margin-left: -3.125rem;
   padding-block: 3.75rem
 }
 .how__container {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 3.125rem
+  gap: 1.25rem
 }
 .how__image {
   overflow: hidden
@@ -520,10 +521,10 @@ body {
 }
 .item-how {
   display: grid;
-  grid-template-columns: 10rem auto;
-  -webkit-column-gap: 1.25rem;
-  -moz-column-gap: 1.25rem;
-  column-gap: 1.25rem;
+  grid-template-columns: 10.625rem auto;
+  -webkit-column-gap: 2.5rem;
+  -moz-column-gap: 2.5rem;
+  column-gap: 2.5rem;
   row-gap: .5rem;
   padding-left: 3.4375rem
 }
