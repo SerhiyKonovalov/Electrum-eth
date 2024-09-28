@@ -335,8 +335,8 @@ body {
   transition: all .7s
 }
 .about-home__image img:hover {
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04)
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03)
 }
 .slider-main {
   background: #282f55;
@@ -512,8 +512,8 @@ body {
   transition: all .7s
 }
 .how__image img:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05)
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03)
 }
 .how__title {
   margin-bottom: 2.1875rem
@@ -612,8 +612,7 @@ code {
 }
 .downloads__table td {
   padding: .75rem;
-  border-top: .0625rem solid #454a74;
-  border-left: .0625rem solid #454a74;
+  border: .0625rem solid #454a74;
   line-height: normal
 }
 .downloads__table td.td-last {
