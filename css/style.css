@@ -494,13 +494,13 @@ body {
   line-height: 1.5
 }
 .how {
-  margin-left: -3.125rem;
   padding-block: 3.75rem
 }
 .how__container {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2,1fr);
-  gap: 1.25rem
+  gap: 3.125rem
 }
 .how__image {
   overflow: hidden
